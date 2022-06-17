@@ -1,0 +1,5 @@
+---
+# Host example:
+hostfile: /etc/hosts
+# { ip: 127.0.0.1, name: localhost, aliases: ['localhost.localdomain', 'localhost4', 'localhost4.localdomain4'] }
+hosts: []

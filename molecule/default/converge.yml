@@ -1,0 +1,12 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible-role-hostsfile"
+      include_role:
+        name: "ansible-role-hostsfile"
+      vars:
+        hostfile: /etc/fakehostfile
+        hosts:
+         - { ip: 192.168.0.39, name: feanor.lan, aliases: ['feanor', 'host1'] }
+         - { ip: 192.168.0.35, name: fingolfin.lan, aliases: ['fingolfin', 'host2'] }
