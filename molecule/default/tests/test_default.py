@@ -3,8 +3,8 @@ EXPECTED_HOSTFILE_CONTENT = """\
 127.0.0.1    localhost localhost.localdomain localhost4 localhost4.localdomain4
 :: 1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 
-192.168.0.39 feanor.lan feanor host1
-192.168.0.35 fingolfin.lan fingolfin host2
+192.168.0.39       feanor.lan feanor host1
+192.168.0.35       fingolfin.lan fingolfin host2
 """
 
 def test_hostfile_exists(host):
